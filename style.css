@@ -94,7 +94,7 @@ body {
   #recycle{
     width: 700px;
     height: 500px;
-    margin-left: 420px;
+    margin-left: 450px;
   }
   #store{
     width: 700px;
@@ -140,7 +140,7 @@ body {
 
   .description{
     text-align: center;
-    font-size: larger;
+    font-size: 25px;
   }
   
   
