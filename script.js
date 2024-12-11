@@ -31,13 +31,11 @@ function prevSlide() {
   showSlide(currentIndex - 1);
 }
 
-
 document.addEventListener("DOMContentLoaded", () => {
   showSlide(currentIndex);
 });
 
-  
-  document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("contact-form");
     const messageDiv = document.getElementById("form-message");
   
