@@ -55,7 +55,7 @@ body {
     font-size: 1em;
   }
 
-  form {
+  #contact-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -94,12 +94,12 @@ body {
   #recycle{
     width: 700px;
     height: 500px;
-    margin-left: 450px;
+    margin: auto;
   }
   #store{
     width: 700px;
     height: 500px;
-    margin-left: 420px;
+    margin: auto;
   }
   .carousel {
     position: relative;
@@ -160,7 +160,7 @@ body {
   
     button {
       padding: 10px 15px;
-      font-size: 0.9em;
+      font-size: 0.9rem;
     }
 
     #first{
@@ -180,15 +180,26 @@ body {
     #recycle{
       width: 100%;
       height: auto;
+      margin: auto;
     }
     #store{
       width: 100%;
       height: auto;
+      margin: auto;
+    }
+    .description{
+      width: 100%;
     }
     
   }
+
+  @media (max-width: 420px) {
+    .description{
+      font-size: large;
+    }
+  }
   
-  @media (max-width: 480px) {
+  @media (max-width: 319px) {
     .hero {
       padding: 20px 5px;
     }
@@ -199,7 +210,9 @@ body {
   
     button {
       width: 100%;
-      padding: 12px;
+    }
+    .description{
+      font-size: medium;
     }
   }
   
